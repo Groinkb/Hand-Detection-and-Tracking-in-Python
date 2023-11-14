@@ -22,7 +22,7 @@ while webcam.isOpened():
                     mp_drawing.draw_landmarks(img,hand_landsmarks,mp_hands.HAND_CONNECTIONS)
 
 
-    cv2.imshow('Koolac', img)
+    cv2.imshow('Groink', img)
     if cv2.waitKey(1) & 0xFF == ord('q'):
                break
 webcam.release()
