@@ -10,12 +10,12 @@ while webcam.isOpened():
     success, img = webcam.read()
     
 
-    #applying hand tracking model
+    #applying hand tracking model with cv
     img=cv2.cvtColor(img,cv2.COLOR_BGR2RGB)
     results=mp_hands.Hands().process(img)
 
 
-    #draw annotations on the image
+    #draw annotations on the image 
     img=cv2.cvtColor(img,cv2.COLOR_RGB2BGR)
     if results.multi_hand_landmarks: 
             for hand_landsmarks in results.multi_hand_landmarks:
