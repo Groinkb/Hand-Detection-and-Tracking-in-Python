@@ -1,4 +1,4 @@
-Hand Detection and Tracking in Python
+# Hand Detection and Tracking in Python
 Date de création : 19 juillet 2024
 Dernière mise-à-jour : 4 octobre 2024
 
